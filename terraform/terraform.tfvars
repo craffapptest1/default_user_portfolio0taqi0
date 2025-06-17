@@ -1,0 +1,8 @@
+region = "us-east-1"
+customer_name = "default_user_portfolio0taqi0"
+project = "default_user_portfolio0taqi0"
+repository_url = "https://github.com/craffapptest1/default_user_portfolio0taqi0"
+branch = "master"
+db_password = "default_user_portfolio0taqi0_password"
+db_username = "postgres"
+db_name = "default_user_portfolio0taqi0_db"
