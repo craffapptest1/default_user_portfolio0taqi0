@@ -58,7 +58,8 @@
           "layout.tsx": "file",
           "layout.tsx.bak": "file",
           "login": {
-            "page.tsx": "file"
+            "page.tsx": "file",
+            "page.tsx.bak": "file"
           },
           "page.tsx": "file",
           "page.tsx.bak": "file",
@@ -90,6 +91,7 @@
         },
         "hooks": {
           "useAuth.tsx": "file",
+          "useAuth.tsx.bak": "file",
           "useToast.ts": "file"
         },
         "lib": {
@@ -97,10 +99,12 @@
           "utils.ts": "file"
         },
         "types": {
-          "index.ts": "file"
+          "index.ts": "file",
+          "index.ts.bak": "file"
         }
       }
-    }
+    },
+    "project_analysis.json": "file"
   },
   "metadata": {
     "C:\\Users\\Sayed taqi\\Desktop\\bitlinks\\new_code_engine\\craftapp_code_engine\\projects\\default_user_portfolio0taqi0\\backend\\.env": {
@@ -697,24 +701,32 @@
     "C:\\Users\\Sayed taqi\\Desktop\\bitlinks\\new_code_engine\\craftapp_code_engine\\projects\\default_user_portfolio0taqi0\\frontend\\src\\app\\login\\page.tsx": {
       "path": "C:\\Users\\Sayed taqi\\Desktop\\bitlinks\\new_code_engine\\craftapp_code_engine\\projects\\default_user_portfolio0taqi0\\frontend\\src\\app\\login\\page.tsx",
       "relative_path": "frontend\\src\\app\\login\\page.tsx",
-      "size": 611,
+      "size": 7049,
       "type": "frontend_other",
       "imports": [
         "react",
         "next/navigation",
-        "@/components/auth/LoginForm",
+        "next/link",
+        "react-icons/fa",
         "@/hooks/useAuth"
       ],
-      "exports": [
-        [
-          "default ",
-          "LoginPage"
-        ]
-      ],
+      "exports": [],
       "defines": [
         "LoginPage",
-        "router"
+        "router",
+        "handleChange",
+        "handleSubmit"
       ],
+      "token_estimate": 534
+    },
+    "C:\\Users\\Sayed taqi\\Desktop\\bitlinks\\new_code_engine\\craftapp_code_engine\\projects\\default_user_portfolio0taqi0\\frontend\\src\\app\\login\\page.tsx.bak": {
+      "path": "C:\\Users\\Sayed taqi\\Desktop\\bitlinks\\new_code_engine\\craftapp_code_engine\\projects\\default_user_portfolio0taqi0\\frontend\\src\\app\\login\\page.tsx.bak",
+      "relative_path": "frontend\\src\\app\\login\\page.tsx.bak",
+      "size": 611,
+      "type": "other",
+      "imports": [],
+      "exports": [],
+      "defines": [],
       "token_estimate": 66
     },
     "C:\\Users\\Sayed taqi\\Desktop\\bitlinks\\new_code_engine\\craftapp_code_engine\\projects\\default_user_portfolio0taqi0\\frontend\\src\\app\\page.tsx": {
@@ -1022,12 +1034,12 @@
     "C:\\Users\\Sayed taqi\\Desktop\\bitlinks\\new_code_engine\\craftapp_code_engine\\projects\\default_user_portfolio0taqi0\\frontend\\src\\hooks\\useAuth.tsx": {
       "path": "C:\\Users\\Sayed taqi\\Desktop\\bitlinks\\new_code_engine\\craftapp_code_engine\\projects\\default_user_portfolio0taqi0\\frontend\\src\\hooks\\useAuth.tsx",
       "relative_path": "frontend\\src\\hooks\\useAuth.tsx",
-      "size": 5537,
+      "size": 2259,
       "type": "frontend_other",
       "imports": [
-        "next/navigation",
+        "react",
         "@/lib/api",
-        "@/lib/utils"
+        "@/types"
       ],
       "exports": [
         [
@@ -1040,26 +1052,30 @@
         ]
       ],
       "defines": [
-        "defaultAuthState",
         "AuthContext",
         "AuthProvider",
-        "router",
-        "initializeAuth",
         "token",
+        "loadUser",
         "response",
         "login",
         "response",
-        "userResponse",
         "register",
-        "response",
-        "activate",
-        "response",
-        "updateAccount",
         "response",
         "logout",
         "value",
-        "useAuth"
+        "useAuth",
+        "context"
       ],
+      "token_estimate": 240
+    },
+    "C:\\Users\\Sayed taqi\\Desktop\\bitlinks\\new_code_engine\\craftapp_code_engine\\projects\\default_user_portfolio0taqi0\\frontend\\src\\hooks\\useAuth.tsx.bak": {
+      "path": "C:\\Users\\Sayed taqi\\Desktop\\bitlinks\\new_code_engine\\craftapp_code_engine\\projects\\default_user_portfolio0taqi0\\frontend\\src\\hooks\\useAuth.tsx.bak",
+      "relative_path": "frontend\\src\\hooks\\useAuth.tsx.bak",
+      "size": 5537,
+      "type": "other",
+      "imports": [],
+      "exports": [],
+      "defines": [],
       "token_estimate": 535
     },
     "C:\\Users\\Sayed taqi\\Desktop\\bitlinks\\new_code_engine\\craftapp_code_engine\\projects\\default_user_portfolio0taqi0\\frontend\\src\\hooks\\useToast.ts": {
@@ -1156,12 +1172,32 @@
     "C:\\Users\\Sayed taqi\\Desktop\\bitlinks\\new_code_engine\\craftapp_code_engine\\projects\\default_user_portfolio0taqi0\\frontend\\src\\types\\index.ts": {
       "path": "C:\\Users\\Sayed taqi\\Desktop\\bitlinks\\new_code_engine\\craftapp_code_engine\\projects\\default_user_portfolio0taqi0\\frontend\\src\\types\\index.ts",
       "relative_path": "frontend\\src\\types\\index.ts",
-      "size": 924,
+      "size": 766,
       "type": "frontend_other",
       "imports": [],
       "exports": [],
       "defines": [],
+      "token_estimate": 87
+    },
+    "C:\\Users\\Sayed taqi\\Desktop\\bitlinks\\new_code_engine\\craftapp_code_engine\\projects\\default_user_portfolio0taqi0\\frontend\\src\\types\\index.ts.bak": {
+      "path": "C:\\Users\\Sayed taqi\\Desktop\\bitlinks\\new_code_engine\\craftapp_code_engine\\projects\\default_user_portfolio0taqi0\\frontend\\src\\types\\index.ts.bak",
+      "relative_path": "frontend\\src\\types\\index.ts.bak",
+      "size": 924,
+      "type": "other",
+      "imports": [],
+      "exports": [],
+      "defines": [],
       "token_estimate": 106
+    },
+    "C:\\Users\\Sayed taqi\\Desktop\\bitlinks\\new_code_engine\\craftapp_code_engine\\projects\\default_user_portfolio0taqi0\\project_analysis.json": {
+      "path": "C:\\Users\\Sayed taqi\\Desktop\\bitlinks\\new_code_engine\\craftapp_code_engine\\projects\\default_user_portfolio0taqi0\\project_analysis.json",
+      "relative_path": "project_analysis.json",
+      "size": 43555,
+      "type": "other",
+      "imports": [],
+      "exports": [],
+      "defines": [],
+      "token_estimate": 1870
     }
   },
   "dependencies": {
