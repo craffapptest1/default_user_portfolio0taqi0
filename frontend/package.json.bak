@@ -1,5 +1,5 @@
 {
-  "name": "portfolio0taqi0",
+  "name": "initial-client",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -29,6 +29,5 @@
     "eslint-config-next": "15.2.0",
     "tailwindcss": "^4",
     "typescript": "^5"
-  },
-  "description": "create a very very small portfolio"
+  }
 }

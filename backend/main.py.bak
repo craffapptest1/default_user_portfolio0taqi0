@@ -7,7 +7,7 @@ from config import settings
 
 Base.metadata.create_all(bind=engine)
 
-app = FastAPI(title="portfolio0taqi0 API")
+app = FastAPI(title="Initial System API")
 
 app.add_middleware(
     CORSMiddleware,
